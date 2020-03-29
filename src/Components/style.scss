@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    min-height: 100vh;
+}
+
+.card {
+    background-color: rgb(36, 36, 36);
+    transition: 0.4s ease-out;
+
+    &:hover {
+
+        background-color: rgb(83, 81, 81);
+        color: rgb(226, 226, 226);
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(170, 170, 170);
+
+        &:hover {
+            color: rgb(226, 226, 226);
+        }
+    }
+}
+
+input {
+    max-width: 700px;
+    margin: auto;
+    transition: 0.5s ease-out;
+    background-color: rgb(197, 197, 197) !important;
+    color: white !important;
+
+    &:focus {
+        background-color: rgb(160, 160, 160) !important;
+    }
+}
+
+.popup {
+    transition: 0.4s ease-out;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 1000px;
+    background-color: violet;
+    color: white;
+}
+
+.footer {
+    background-color: rgb(37, 37, 37);
+    color: rgb(214, 211, 211);
+
+    p {
+        margin-bottom: 0 !important;
+    }
+}
