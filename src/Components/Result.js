@@ -7,12 +7,12 @@ export class Result extends Component {
     return (
       <ProductConsumer>
         {value => {
-          const { openPopup, error} = value;
+          const { openPopup, error } = value;
 
           if (!error) {
             return (
               <div
-                className="col-lg-3 col-md-4 col-sm-6 pt-4"
+                className="col-lg-3 col-md-4 col-sm-6 pt-4 col-container"
                 onClick={() => openPopup(imdbID)}
               >
                 <div className="card">
